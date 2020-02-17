@@ -81,7 +81,7 @@ ul {
   margin-left: 0px;
 }
 
-.contacts__number > img { /* РАЗОБРАТЬСЯ */
+.contacts__telephone > img { /* РАЗОБРАТЬСЯ */
   width: 10%;
   height: 10%;
   max-width: 25px;
@@ -95,7 +95,7 @@ ul {
 .section-start {
   background-image: url("/images/ecofriends-Park.png");
 /* https://i.imgur.com/BIEYQaH.png */
-  min-height: 500px;
+  min-height: 635px;
   display: flex;
   flex-direction: row;
   align-items: right;
@@ -107,21 +107,26 @@ ul {
 
 .section-start__content {
   background: var(--main-green);
-  width: 50%;
+  max-width: 615px;
+  padding-left: 5.5rem;
   height: 100%;
-  border-radius: 50% 0 0 50%;
+  border-top-left-radius: 55% 80%;
+  border-bottom-left-radius: 3% 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-right: 70px;
 }
 
 .section-start__h1 {
   color: #FFF;
   font-size: 2rem;
+  text-align: right;
 }
 
 .section-start__main {
   font-size: 1.2rem;
+  text-align: right;
 }
 
 .section-start__order {
@@ -130,11 +135,12 @@ ul {
   padding: 0.7rem 1.8rem 0.7rem 1.8rem;
   color: #000;
   font-size: 1rem;
+  text-align: center;
 }
 
 .section-start__order:hover { /* ДОДЕЛАТЬ НОРМАЛЬНО!!! */
-  background: var(--main-yellow);
-  color: #000;
+  background: blue;
+  color: #FFF;
 }
 
 .section-about-problem {
