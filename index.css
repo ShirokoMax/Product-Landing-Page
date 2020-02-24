@@ -141,7 +141,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  flex-wrap: wrap;                  /* позже перенести это в @media */
+  flex-wrap: wrap;                 /* позже перенести это в @media */
   background: var(--main-green);
   /*background-size: 615px auto;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ body {
   */
 }
 
-.section-about-problem__video {
+.section-about-problem__video > h1 {
   font-size: 1.75rem;
 }
 
@@ -166,6 +166,11 @@ body {
 .section-about-problem__description_container {
   max-width: 480px;
   max-height: 108px;
+  padding: 18px 0 18px 0;
+}
+
+.section-the-benefits > h1 {
+  margin-left: 2.5%;
 }
 
 .section-the-benefits__list {
@@ -173,18 +178,28 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-around;
+  font-size: 1rem;
 }
 
 .section-the-benefits__list-item {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  max-width: 600px;
+  margin: 40px auto;
 }
 
 .section-the-benefits__list-item > img {
   max-width: 100px;
+  max-height: 100px;
+}
+
+.section-get-started {
+  background-color: var(--main-green);
+}
+
+.section-what-can-you-sort {
+  background-color: var(--main-green);
 }
 
 .section-how-to-order__submit {
