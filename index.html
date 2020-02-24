@@ -217,10 +217,12 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 
 <form id="form"
       class="section-how-to-order__form"
+      method="POST"
       action="https://www.freecodecamp.com/email-submit">
       Укажите тип и примерную массу вторсырья, которое необходимо отправить на переработку
   <input type="range"
         name="weight"
+        value="50"
         min="1"
         max="100"
         step="1">
