@@ -171,7 +171,20 @@ body {
 .section-the-benefits__list {
   list-style-type: none;
   display: flex;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-the-benefits__list-item {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.section-the-benefits__list-item > img {
+  max-width: 100px;
 }
 
 .section-how-to-order__submit {
