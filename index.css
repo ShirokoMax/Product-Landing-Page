@@ -5,17 +5,11 @@
 }
 
 @media (max-width: 600px) {
-  .head {
-    
-  }
+  
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-ul {
-  list-style-type: circle;
 }
 
 .container {
@@ -148,6 +142,12 @@ ul {
   justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;                  /* позже перенести это в @media */
+  background: var(--main-green);
+  /*background-size: 615px auto;
+  background-repeat: no-repeat;
+  border-top-left-radius: 80% 50%;
+  border-bottom-left-radius: 90% 50%;
+  */
 }
 
 .section-about-problem__video {
@@ -160,11 +160,18 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  list-style-type: circle;
 }
 
 .section-about-problem__description_container {
   max-width: 480px;
   max-height: 108px;
+}
+
+.section-the-benefits__list {
+  list-style-type: none;
+  display: flex;
+  
 }
 
 .section-how-to-order__submit {
